@@ -25,10 +25,10 @@ Este proyecto forma parte de mi Trabajo Fin de Máster y tiene como objetivo des
 
 ## Flujo del proyecto
 
-1. **Preprocesado (`1_Data_Processing`)**  
+1. **Preprocesado (`1_Data_Processing`)**
+   - Se escalan las variables según el tipo de normalización definida.
    - Se crean secuencias temporales a partir de datos meteorológicos y se guardan en un `.xlsx` con su `dataset_id`.
    - Se realiza el balanceo de clases tomando los `ids` del dataset base y generando nuevos archivos CSV según el método elegido.
-   - Se escalan las variables según el tipo de normalización definida.
 
 2. **Entrenamiento (`2_Model_Training`)**  
    - Con un `dataset_id` y el método de balanceo, se genera el conjunto de entrenamiento.
