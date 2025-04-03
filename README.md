@@ -5,19 +5,22 @@ Este proyecto forma parte de mi Trabajo Fin de Máster y tiene como objetivo des
 ---
 
 ## Estructura del proyecto
+
+```plaintext
 .
 ├── 1_Data_Processing/
-│   ├── processing_class.py     # Generación de secuencias y guardado de datasets
-│   ├── balancing_class.py      # Balanceo de clases según IDs del dataset
-│   └── scale_data.py           # Escalado de variables
+│ ├── processing_class.py # Generación de secuencias y guardado de datasets
+│ ├── balancing_class.py # Balanceo de clases según IDs del dataset
+│ └── scale_data.py # Escalado de variables
 │
 ├── 2_Model_Training/
-│   ├── data_generator.py       # Generador de datos para entrenamiento
-│   ├── architectures.py        # Definición de arquitecturas de redes
-│   └── train.py                # Entrenamiento usando W&B y configuración dinámica
+│ ├── data_generator.py # Generador de datos para entrenamiento
+│ ├── architectures.py # Definición de arquitecturas de redes
+│ └── train.py # Entrenamiento usando W&B y configuración dinámica
 │
 ├── 3_Test/
-│   └── test.py                 # Carga del modelo y predicciones sobre nuevos datos
+│ └── test.py # Carga del modelo y predicciones sobre nuevos datos
+```
 
 
 ## Flujo del proyecto
